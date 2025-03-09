@@ -61,6 +61,12 @@ function zodiac(year) {
 
 //유저에게 mbti묻기
 //총 네번의 프롬프트를 묻고
+//1. e 또는 i ?
+//2. s 또는 n ?
+//3. t 또는 f ?
+//4. j 또는 p ?
+// ex) i, n, t, p
+// 콘솔로 당신의 셩격은 내향적, 직관적, 이성적, 즉흥적입니다!
 const a = prompt("e 또는 i ?");
 const b = prompt("s 또는 n ?");
 const c = prompt("t 또는 f ?");

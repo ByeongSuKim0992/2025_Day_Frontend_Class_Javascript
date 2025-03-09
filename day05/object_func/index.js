@@ -1,6 +1,18 @@
 // 기본: num,str,bool,null,undefined,
 // 참조: arr,obj,function
 
+// const starbucks = {
+//   place: "부평점",
+//   menu: ["아메리카노", "라떼"],
+//   sales: 0,
+//   sellCoffee: function () {
+//     this.sales = this.sales + 1000;
+//   },
+// };
+// // starbucks.sellCoffee();
+// starbucks.sellCoffee();
+// console.log(starbucks.sales);
+
 const bakery = {
   sale: 0,
   sellBread: function () {
@@ -18,6 +30,14 @@ const bakery = {
 // 영화[미키17 10000, 퇴마록 9000, 캡틴 아메리카 8000]
 // 매출: 0
 // 영화 팔기 함수 => 번호를 받으면 ~~영화가 판매되었습니다! 콘솔
+// const cgv = {
+//   movies: ["미키 17", "퇴마록", "캡틴 아메리카"],
+//   sellTicket: function (x) {
+//     if (0 <= x && x <= 2)
+//       console.log(`${this.movies[x].name}영화가 판매되었습니다!`);
+//     else console.log("해당 번호의 영화는 존재하지 않습니다!");
+//   },
+// };
 const cgv = {
   movies: [
     { name: "미키 17", price: 10000 },
@@ -63,4 +83,16 @@ const car = {
   },
 };
 
+car.up();
+car.up();
+car.up();
+car.up();
+car.up();
+car.down();
+car.down();
+car.down();
+car.down();
+car.down();
+car.down();
+car.showSpeed();
 // obj & function
